@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="two-part-box">
+            <div class="item" id="img-box">
+                <img src="cardImgR.jpg" alt="">
+            </div>
+            <div class="item" id="form-box">
+                <h1>registration info</h1>
+                <form action="#" method="post">
+                    <div class="inputBox">
+                        <input type="text" id="name" required="required">
+                        <span>Name</span>
+                        <i></i>
+                    </div>
+                    <div class="inputBox">
+                        <input type="date" id="birthdate" required="required">
+                        <span>Birthdate</span>
+                        <i></i>
+                    </div>
+                    <div class="selectBox">
+                        <select name="Gender" id="Gender" required>
+                            <option value="" selected  disabled></option>
+                            <option value="Male">Male</option>
+                            <option value="Female">Female</option>
+                            <option value="Other">Other</option>
+                        </select>
+                        <span>Gender</span>
+                        <i></i>
+                    </div>
+                    <div class="inputBox">
+                        <input type="email" id="mail" required="required">
+                        <span>Email</span>
+                        <i></i>
+                    </div>
+                    <div class="inputBox">
+                        <input type="tel" id="phone" required="required">
+                        <span>Phone</span>
+                        <i></i>
+                    </div>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
